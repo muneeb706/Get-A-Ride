@@ -3,6 +3,7 @@ This application operates between a driver and the user who is looking out for a
 
 Theme:
 Location-Based Application
+
 Functional requirements and Architectural analysis
 1-	Locating start and end point on google maps. Displaying the route and distance.
 2-	Calculating total fare based on distance and fare per kilometer.
