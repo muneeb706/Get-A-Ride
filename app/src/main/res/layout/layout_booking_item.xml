@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:orientation="vertical">
+
+
+
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="3dp"
+        android:id="@+id/bookingnumber"
+        android:layout_marginTop="3dp"
+        android:background="#fff"
+        android:textStyle="bold"
+
+        android:padding="10dp"
+        android:text="Booking: " />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="3dp"
+        android:id="@+id/datelabel"
+        android:layout_marginTop="3dp"
+        android:background="#fff"
+
+
+        android:padding="10dp"
+        android:text="Date: "
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="3dp"
+        android:id="@+id/driverlabel"
+        android:layout_marginTop="3dp"
+        android:background="#fff"
+
+
+        android:padding="10dp"
+        android:text="From: "
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="3dp"
+        android:id="@+id/startlabel"
+        android:layout_marginTop="3dp"
+        android:background="#fff"
+
+
+        android:padding="10dp"
+        android:text="To: "
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="3dp"
+        android:id="@+id/endlabel"
+        android:layout_marginTop="3dp"
+        android:background="#fff"
+
+        android:padding="10dp"
+        android:text="Driver: "
+        android:visibility="gone"/>
+
+
+
+
+
+</LinearLayout>

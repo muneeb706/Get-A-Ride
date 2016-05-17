@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical"
+    tools:context="com.example.dell.google_maps_drive.NavigationDrawerFragment">
+    <include
+        android:id="@+id/header"
+        layout="@layout/nav_drawer_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/header"
+        android:id="@+id/drawerList"
+        android:background="@android:color/white"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</RelativeLayout>

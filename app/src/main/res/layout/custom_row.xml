@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@drawable/custom_bg"
+    android:clickable="true"
+    >
+
+    <TextView
+        android:id="@+id/listText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yollo!"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:layout_marginStart="33dp"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/list_icon" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/separator"
+        android:background="@drawable/row_separator"
+        android:layout_below="@+id/listText"
+        android:layout_marginTop="15dp"
+        android:alpha="0.5"
+        android:contentDescription="separator" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/list_icon"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginStart="21dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

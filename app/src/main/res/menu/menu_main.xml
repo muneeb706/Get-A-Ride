@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.dell.google_maps_drive.MapsActivity"
+    >
+
+    <item
+        android:id="@+id/satellite"
+        android:orderInCategory="1"
+        android:title="@string/satelliteView"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/normal"
+        android:orderInCategory="2"
+        android:title="@string/normalView"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/hybrid"
+        android:orderInCategory="3"
+        android:title="@string/hybridView"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/terrain"
+        android:orderInCategory="4"
+        android:title="@string/terrainView"
+        app:showAsAction="never" />
+</menu>

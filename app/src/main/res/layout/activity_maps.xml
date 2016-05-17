@@ -1,0 +1,65 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+   <!-- <include
+        android:id="@+id/activity_toolbar"
+        layout="@layout/activity_toolbar" />-->
+
+    <android.support.v4.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:fitsSystemWindows="true"
+        android:id="@+id/drawer_layout">
+        <!--android:layout_below="@+id/activity_toolbar"-->
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <include
+                android:id="@+id/activity_toolbar"
+                layout="@layout/activity_toolbar" />
+            <fragment
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/activity_toolbar"
+
+                tools:context="com.example.dell.google_maps_drive.MapsActivity"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+              />
+            <FrameLayout
+                android:id="@+id/user_fragments"
+                tools:context="com.example.dell.google_maps_drive.MapsActivity"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/activity_toolbar"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:visibility="gone"
+                ></FrameLayout>
+
+        </RelativeLayout>
+        <fragment
+            android:layout_width="280dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:id="@+id/fragment_navigation_drawer"
+            app:layout="@layout/fragment_navigation_drawer"
+            android:name="com.example.dell.google_maps_drive.NavigationDrawerFragment"
+            tools:layout="@layout/fragment_navigation_drawer"></fragment>
+
+
+    </android.support.v4.widget.DrawerLayout>
+
+
+
+</RelativeLayout>

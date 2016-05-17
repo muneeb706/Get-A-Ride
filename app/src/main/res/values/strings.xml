@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TaxiApp</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="spinnerData">
+        <item>Customer</item>
+        <item>Driver</item>
+    </string-array>
+    <string name="required">required*</string>
+    <string name="endstring">End</string>
+    <string name="startstring">Start</string>
+    <string name="datestring">Date</string>
+    <string name="driverstring">Driver</string>
+    <string name="userActivity">TaxiApp</string>
+    <string name="satelliteView">View Satellite Map</string>
+    <string name="normalView">View Normal Map</string>
+
+    <string name="hybridView">View Hybrid Map</string>
+    <string name="terrainView">View Terrain Map</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="facebook_app_id">224462777929659</string>
+    <string name="api_access_token">w7tW2NUQJWvi8mKbB3VjaNrmTq2LNtP5mtRksA77xuZgOpVTZoeBbprqRv9AD8EzihCR1HNecmSe3h2EOcmt</string>
+</resources>

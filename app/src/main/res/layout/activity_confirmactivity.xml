@@ -1,0 +1,107 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    >
+
+<LinearLayout
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="5dp"
+android:orientation="vertical">
+    <include
+        android:id="@+id/confirmation_toolbar"
+        layout="@layout/activity_toolbar" />
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="3dp"
+        android:clickable="true"
+       android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Customer Request" />
+
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:layout_marginBottom="3dp"
+    android:layout_marginTop="10dp"
+    android:background="#fff"
+    android:clickable="true"
+    android:elevation="4dp"
+    android:padding="20dp"
+    android:id="@+id/contact_number"
+    android:text="Name" />
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="#fff"
+    android:clickable="true"
+    android:elevation="4dp"
+    android:padding="20dp"
+    android:id="@+id/start_loc"
+    android:text="From" />
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:layout_marginBottom="3dp"
+    android:layout_marginTop="3dp"
+    android:background="#fff"
+    android:clickable="true"
+    android:elevation="4dp"
+    android:padding="20dp"
+    android:id="@+id/end_loc"
+    android:text="To" />
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="#fff"
+    android:clickable="true"
+    android:elevation="4dp"
+    android:padding="20dp"
+    android:id="@+id/request_time"
+    android:text="Time" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Accept"
+            android:id="@+id/accept"
+            android:enabled="true"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reject"
+            android:id="@+id/reject"
+            android:enabled="true"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/accept" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+
+</ScrollView>
