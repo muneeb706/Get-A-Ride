@@ -33,3 +33,11 @@ Activity flow:
 
 3-	After ride completion a page to rate user experience.
 
+Api Used:
+-
+-	Google Maps
+-	Google Direction
+-	Google Places
+-	Google Cloud Messsaging
+
+
